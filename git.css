@@ -1,0 +1,62 @@
+html{
+	font-family: Brush Script Mt;
+	color:rgb(255, 255, 244);
+}
+
+body{
+	background-image: url(img/pink.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	text-shadow:
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+nav{
+	margin-top: 2%;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: rgb(255, 255, 244);
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-bottom-color: rgb(255, 255, 244);
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-end;
+	list-style: none;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-size: 200%;
+}
+
+a:link{
+	text-decoration: none;
+	color:white;
+}
+
+a:visited{
+	text-decoration: none;
+	color:white;
+}
+
+a:hover{
+	color: rgb(242, 210, 235);
+}
+
+p{
+	font-size: 30px;
+	margin-right: 28%;
+	margin-left:28%;
+}
+
+p b{
+	color:rgb(242, 210, 235);
+}
+
+
+h1{
+	margin-left: 28%;
+}

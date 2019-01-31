@@ -1,0 +1,60 @@
+body{
+	font-family: Marker Felt;
+	background-image: url("img/wood.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.fill{
+	background-color:white;
+	padding:2%;
+	margin-right:40%;
+	color:black;
+	border-style: double;
+	border-color:rgb(153, 6, 6);
+	border-width: 6px;
+}
+
+nav{
+	margin-right:40%;
+	border-bottom-style: double;
+	border-bottom-color: rgb(153, 6, 6);
+	border-bottom-width: 6px;
+	margin-bottom: 2%;
+}
+
+nav ul{
+	font-size:24px;
+	color:rgb(153, 6, 6);
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+
+p{
+	font-size: 18px;
+}
+
+a:link{
+	text-decoration: none;
+	color:rgb(153, 6, 6);
+}
+
+a:visited{
+	text-decoration: none;
+	color:rgb(153, 6, 6);
+}
+
+a:hover{
+	color:rgb(66, 1, 1);
+}
+
+b{
+	color:rgb(153, 6, 6);
+}
+
+	
+
